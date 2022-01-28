@@ -218,7 +218,7 @@
               display: none;
       }
       .container{
-        margin-left: 115px;
+        margin-left: 80px;
         margin-top: 70px;
     }
     .row{
@@ -246,6 +246,12 @@
     }
 
   }
+
+      @media only screen and (max-width:576px){
+              .container{
+                      margin-left:0px;
+              }
+}
 
 
       @media only screen and (max-width:441px){
